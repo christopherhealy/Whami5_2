@@ -4,13 +4,13 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
 		xmlns:android = "http://schemas.android.com/apk/res/android"
-        id        = "com.qdev.WHAMI5"
+        id        = "com.qdev.WHAMI5_v2"
         version   = "1.0.0">
 
     <name>Whami! </name>
 
     <description>
-        Dec 22 test - v2
+        Dec 22 test - v3
     </description>
 
     <author href="http://qdevinc.com" email="kevin.wei@qdevinc.com">
@@ -63,9 +63,8 @@
 <gap:plugin name="org.apache.cordova.splashscreen" version="0.3.4" />
 <gap:plugin name="org.apache.cordova.statusbar" version="0.1.4" />
 <gap:plugin name="org.apache.cordova.vibration" version="0.3.11" />
-<gap:plugin name="org.transistorsoft.cordova.background-geolocation" version="0.3.2" />    <!-- Third party plugins -->
-    <!-- A list of available plugins are available at https://build.phonegap.com/plugins -->
-	 <!-- <gap:plugin name="org.transistorsoft.cordova.background-geolocation" version="0.3.2"/> -->
+<gap:plugin name="org.transistorsoft.cordova.background-geolocation" version="0.3.2" />
+
 
     <!-- Define app icon for each platform. -->
     <icon src="icon.png" />
